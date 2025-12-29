@@ -1,6 +1,6 @@
 # Simple To-do List
 
-Meu primeiro projeto pessoal de desenvolvimento web, feito apenas com **HTML, CSS e JavaScript puro** (sem frameworks ou bibliotecas).
+O meu primeiro projeto pessoal de desenvolvimento web, feito apenas com **HTML, CSS e JavaScript puro** (sem frameworks ou bibliotecas).
 
 ## Objetivo do projeto
 Construir uma To-do List funcional do zero para aprender na prática os fundamentos do front-end e aplicar boas práticas de código limpo, organização e Git.
