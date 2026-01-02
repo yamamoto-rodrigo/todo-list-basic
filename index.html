@@ -1,10 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Gerenciador De Tarefas</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
+    <h1>Gerenciador De Tarefas</h1>
+</header>
+<main class="container">
+    <section class="task-form-section">
+        <form id="task-form" class="form-control">
+            <label for="task-name" class="task-form-label">Nome da Tarefa</label>
+            <input type="text" id="task-name" placeholder="Nome da Tarefa" required>
 
+            <label for="task-date" class="task-form-label">Data da Tarefa</label>
+            <input type="date" id="task-date" required>
+
+            <label for="task-priority" class="task-form-label">Prioridade</label>
+            <select id="task-priority" required>
+                <option value="" disabled selected>Selecione a Prioridade</option>
+                <option value="low">Baixa</option>
+                <option value="medium">Média</option>
+                <option value="high">Alta</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
+        </form>
+    </section>
+
+    <section class="task-list-section">
+        <h2>Lista de Tarefas</h2>
+        <ul id="task-list" class="task-list">
+            <!-- As tarefas serão adicionadas aqui -->
+        </ul>
+    </section>
+
+    <section class="task-status-section">
+        <h2>Status das Tarefas</h2>
+
+        <p>Total de Tarefas: <span id="total-tasks"></span></p>
+        <p>Tarefas Completas: <span id="completed-tasks"></span></p>
+        <p>Tarefas Pendentes: <span id="pending-tasks"></span></p>
+
+        <button id="clear-all-tasks" class="btn btn-secondary">Limpar Todas Tarefas</button>
+        <button id="clear-completed-tasks" class="btn btn-secondary">Limpar Tarefas Completas</button>
+    </section>
+</main>
+<script src="js/scripts.js"></script>
 </body>
 </html>
