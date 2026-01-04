@@ -78,3 +78,58 @@ input:focus, select:focus{
 .btn-secondary:hover{
     background-color: var(--medium-priority);
 }
+
+.btn-complete, .btn-delete{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.btn-complete{
+    background-color: var(--low-priority);
+    color: white;
+}
+.btn-complete:hover{
+    background-color: var(--medium-priority);
+}
+.btn-delete{
+    background-color: var(--high-priority);
+    color: white;
+}
+.btn-delete:hover{
+    background-color: #d32f2f;
+}
+.task-list{
+    margin-top: 2rem;
+    list-style-type: none;
+}
+.task-item{
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-actions{
+    display: flex;
+    gap: 0.5rem;
+}
+.priority-high{
+    border-left: 6px solid var(--high-priority);
+    padding-left: 0.5rem;
+}
+.priority-medium{
+    border-left: 6px solid var(--medium-priority);
+    padding-left: 0.5rem;
+}
+.priority-low{
+    border-left: 6px solid var(--low-priority);
+    padding-left: 0.5rem;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
