@@ -5,35 +5,41 @@ O meu primeiro projeto pessoal de desenvolvimento web, feito apenas com **HTML, 
 ## Status atual
 **Em Andamento**
 
-Nos últimos dias, foquei em fechar a estrutura do HTML e em montar uma base para o CSS. Como o design ainda não é o meu forte, optei por criar um "esqueleto"
-visual agora para conseguir avançar sem travar na parte da lógica e das funcionalidades. Sei que, neste momento, as cores e alguns elementos ainda não estão
-conversando muito bem, mas foi uma decisão consciente para o projeto não ficar parado. Assim que a lógica com o JavaScript estiver pronta, pretendo me dedicar
-100% ao design, que é justamente o ponto onde mais preciso e quero evoluir.
+Atualmente, já tenho a **lógica básica do JavaScript implementada**, incluindo:
+- Seleção de elementos do DOM
+- Função para criar tarefas dinamicamente
+- Captura do evento de submit do formulário
+- Formatação de datas para o padrão brasileiro (dd/mm/aaaa)
+- Sistema de prioridades aplicado visualmente às tarefas
+- Limpeza automática do formulário após adicionar uma tarefa
 
-*No momento, tenho a estrutura base do HTML e do CSS pronta para iniciar a lógica, mas farei ajustes visuais e estruturais conforme avanço no desenvolvimento.*
+Os próximos passos incluem implementar as funcionalidades de **concluir** e **excluir** tarefas, adicionar 
+**persistência de dados** (localStorage) e, assim que a lógica estiver completa, me dedicar 100% ao design, 
+que é justamente o ponto onde mais preciso e quero evoluir.
 
 ## Objetivo do projeto
-Construir uma To-do List funcional do zero para aprender na prática os fundamentos do front-end e aplicar boas práticas de código limpo, organização e Git.
+Construir uma To-do List funcional do zero para aprender na prática os fundamentos do front-end e aplicar boas 
+práticas de código limpo, organização e Git.
 
 ## Tecnologias e Ferramentas
 - **HTML5:** Estrutura semântica inicial montada.
 - **CSS3:** Esqueleto visual funcional (em evolução, com Flexbox e variáveis).
-- **JavaScript puro:** Será usado na próxima etapa para dar vida às funcionalidades.
+- **JavaScript puro:** Lógica básica de criação de tarefas já implementada.
 
 ## Funcionalidades planejadas
-*A parte visual (botões e inputs) já existe no HTML, agora falta a lógica:*
+*A parte visual (botões e inputs) já existe no HTML, agora falta completar a lógica:*
 
-- [ ] Adicionar novas tarefas
+- [x] Adicionar novas tarefas
 - [ ] Marcar tarefas como concluídas
 - [ ] Deletar tarefas individuais
 - [ ] Limpar todas as tarefas concluídas
 - [ ] Contador de tarefas pendentes
 - [ ] Salvar dados no navegador para não perder as tarefas
 
-## Funcionalidades extras (Futuro)
-- Níveis de prioridade (baixa, média, alta) com cores diferentes
-- Editar tarefa
-- Modo escuro/claro
+## Funcionalidades extras
+- [x] Níveis de prioridade (baixa, média, alta) com cores diferentes
+- [ ] Editar tarefa
+- [ ] Modo escuro/claro
 
 ## O que estou aprendendo com esse projeto
 - Como estruturar um HTML acessível.
