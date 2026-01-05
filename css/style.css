@@ -113,6 +113,24 @@ input:focus, select:focus{
     justify-content: space-between;
     align-items: center;
 }
+
+.task-item.task-completed {
+    opacity: 0.6;
+    background-color: #f0f0f0;
+    transition: 0.3s;
+}
+
+
+.task-item.task-completed strong {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+.task-item.task-completed {
+    border-left-color: #ccc !important;
+}
+
 .task-actions{
     display: flex;
     gap: 0.5rem;

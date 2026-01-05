@@ -12,8 +12,10 @@ Atualmente, já tenho a **lógica básica do JavaScript implementada**, incluind
 - Formatação de datas para o padrão brasileiro (dd/mm/aaaa)
 - Sistema de prioridades aplicado visualmente às tarefas
 - Limpeza automática do formulário após adicionar uma tarefa
+- Funcionalidade de concluir e desfazer tarefas
+- Funcionalidade de excluir tarefas com confirmação
 
-Os próximos passos incluem implementar as funcionalidades de **concluir** e **excluir** tarefas, adicionar 
+Os próximos passos incluem implementar as funcionalidades de **limpeza de tarefas** (limpar todas/concluídas), adicionar 
 **persistência de dados** (localStorage) e, assim que a lógica estiver completa, me dedicar 100% ao design, 
 que é justamente o ponto onde mais preciso e quero evoluir.
 
@@ -24,16 +26,16 @@ práticas de código limpo, organização e Git.
 ## Tecnologias e Ferramentas
 - **HTML5:** Estrutura semântica inicial montada.
 - **CSS3:** Esqueleto visual funcional (em evolução, com Flexbox e variáveis).
-- **JavaScript puro:** Lógica básica de criação de tarefas já implementada.
+- **JavaScript puro:** Lógica funcional de manipulação de tarefas (criar, concluir, excluir e contagem) já implementada.
 
 ## Funcionalidades planejadas
 *A parte visual (botões e inputs) já existe no HTML, agora falta completar a lógica:*
 
 - [x] Adicionar novas tarefas
-- [ ] Marcar tarefas como concluídas
-- [ ] Deletar tarefas individuais
+- [x] Marcar tarefas como concluídas
+- [x] Deletar tarefas individuais
 - [ ] Limpar todas as tarefas concluídas
-- [ ] Contador de tarefas pendentes
+- [x] Contador de tarefas pendentes
 - [ ] Salvar dados no navegador para não perder as tarefas
 
 ## Funcionalidades extras
