@@ -93,6 +93,14 @@ input:focus, select:focus{
 .btn-complete:hover{
     background-color: var(--medium-priority);
 }
+
+.btn-undo{
+    background-color: var(--medium-priority);
+    color: white;
+}
+.btn-undo:hover{
+    background-color: var(--low-priority);
+}
 .btn-delete{
     background-color: var(--high-priority);
     color: white;
@@ -146,8 +154,4 @@ input:focus, select:focus{
 .priority-low{
     border-left: 6px solid var(--low-priority);
     padding-left: 0.5rem;
-}
-.completed{
-    text-decoration: line-through;
-    color: gray;
 }
