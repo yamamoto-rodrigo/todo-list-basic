@@ -69,13 +69,13 @@ input:focus, select:focus{
     background-color: var(--low-priority);
 }
 
-.btn-secondary{
+.btn-clear-all-tasks, .btn-clear-completed-tasks{
     background-color: var(--btn-danger-color);
     color: white;
     font-weight: bold;
 
 }
-.btn-secondary:hover{
+.btn-clear-all-tasks:hover, .btn-clear-completed-tasks:hover{
     background-color: var(--medium-priority);
 }
 
